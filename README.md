@@ -1,4 +1,8 @@
-# Odoo Payment Acquirer with Midtrans
+# Odoo 15 Payment Acquirer with Midtrans
+
+This Unofficials Odoo module for payment acquirer with midtrans. 
+
+Made it public for people to focus on business rather then wasting time on technical development.
 
 ### Midtrans Official Site and Repo
 ```
