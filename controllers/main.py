@@ -13,7 +13,7 @@ _logger = logging.getLogger(__name__)
 class MidtransController(http.Controller):
     _payment_notification_url = '/payment/midtrans/payment_notification'
     _recurring_notification_url = '/payment/midtrans/recurring_notification'
-    _pay_account_notification_url = '/payment/midtrans/pay_account'
+    _pay_account_notification_url = '/payment/midtrans/pay_account_notification'
     _finish_url = '/payment/midtrans/finish'
     _unfinish_url = '/payment/midtrans/unfinish'
     _error_url = '/payment/midtrans/error'
