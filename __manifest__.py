@@ -2,15 +2,14 @@
 {
     'name': "Payment Midtrans",
     'version': '1.0',
-    'depends': [],
+    'category': 'Accounting/Payment Acquirers',
     'author': "PT Mashanz Sumber Terbuka",
-    'category': 'Uncategorized',
-    'description': """
-        Payment Acquirer: Midtrans Payment Gateway
-    """,
+    'summary': 'Payment Midtrans Implementations',
+    'description': """Payment Acquirer: Midtrans Payment Gateway""",
+    'depends': ['payment'],
     'data': [],
     'demo': [],
-    'installable': True,
     'application': True,
-    'auto_install': False,
+    'uninstall_hook': 'uninstall_hook',
+    'license': 'LGPL-3',
 }
