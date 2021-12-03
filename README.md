@@ -1,4 +1,4 @@
-# Odoo Payment Acquirer using Midtrans
+# Odoo 15 Payment Acquirer using Midtrans
 
 This Unofficials Odoo module for payment acquirer using midtrans. 
 
